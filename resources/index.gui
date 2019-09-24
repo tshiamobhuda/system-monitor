@@ -3,11 +3,20 @@
     <use id="item1" href="#panoramaview-item">
       <rect width="100%" height="100%" fill="#0d0d0d"/>
 
-      <circle cx="50%" cy="45%" r="120" fill="#eeeeee"/>
-      <arc id="nativeMemoryPie" x="14%" y="9%" width="72%" height="72%" fill="tomato" arc-width="24" start-angle="0" sweep-angle="90"/>
-      
-      <text id="nativeMemoryPiePercentage" x="50%" y="45%" fill="#0d0d0d" text-length="4" text-anchor="middle">56%</text>
-      <text id="nativeMemoryPieText" x="50%" y="52%" fill="#0d0d0d" text-length="4" text-anchor="middle">171.86 / 1160 KB</text>
+      <!-- pie -->
+      <circle cx="30%" cy="30%" r="25%" fill="#eeeeee"/>
+      <arc id="nativeMemoryPie" x="4%" y="4%" width="54%" height="54%" fill="tomato" arc-width="22" start-angle="0"/>
+      <text id="nativeMemoryPiePercentage" class="number" x="30%" y="35%" fill="#0d0d0d" text-length="4" text-anchor="middle" />
+
+      <!-- used native memory -->
+      <text class="smallText" x="62%" y="20%" fill="#eeeeee" text-length="8">Used</text>
+      <text id="nativeMemoryUsedText" class="smallText number" x="62%" y="26%" fill="tomato" text-length="8"/>
+
+      <!-- total native Memory -->
+      <text class="smallText" x="62%" y="35%" fill="#eeeeee" text-length="8">Total</text>
+      <text id="nativeMemoryTotalText" class="smallText number" x="62%" y="41%" fill="tomato" text-length="8"/>
+
+      <text x="15%" y="75%" fill="#eeeeee" text-length="17">Native Memory</text>
     </use>
 
     <use id="item2" href="#panoramaview-item">

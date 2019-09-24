@@ -1,4 +1,4 @@
-text {
+.number {
   font-family: "Fabrikat-Black";
 }
 
@@ -6,6 +6,6 @@ text {
   font-size: 30;
 }
 
-#nativeMemoryPieText {
+.smallText {
   font-size: 20;
 }
